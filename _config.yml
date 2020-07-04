@@ -15,7 +15,7 @@ theme                  : "minimal-mistakes-jekyll"
 minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 title                    : "연예의 매일매일 코딩 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
