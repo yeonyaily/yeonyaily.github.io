@@ -24,7 +24,7 @@ description              : "개발 초보 나부랭이의 개발 공부"
 url                      : "https://yeonyaily.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/image1.jpg"
+teaser                   : "/assets/images/iceland.jpg"
 logo                     : "/assets/images/moon.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -75,7 +75,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/moon.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -93,8 +93,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Yejin Yeon"
-  avatar           : "/assets/images/image1.jpg"
+  name             : "Yeonyaily"
+  avatar           : "/assets/images/iceland.jpg"
   bio              : "개발 초보 나부랭이의 개발 공부"
   location         : "South Korea"
   email            :
