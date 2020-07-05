@@ -1,6 +1,6 @@
 ---
 title: "Github"
 layout: category
-permalink: /categories/github/
+permalink: /categories/study/github/
 author_profile: true
 ---
