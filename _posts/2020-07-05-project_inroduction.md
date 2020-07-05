@@ -1,5 +1,5 @@
 ---
-titl: "프로젝트 소개 및 계획"
+title: "프로젝트 소개 및 계획"
 categories:
   - project
 ---
