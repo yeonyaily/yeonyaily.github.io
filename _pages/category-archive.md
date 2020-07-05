@@ -1,6 +1,6 @@
 ---
 title: "Posts by Study"
 layout: categories
-permalink: /categories/study/
+permalink: /categories/
 author_profile: true
 ---
