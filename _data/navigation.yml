@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "study"
-    url: https://yeonyaily.github.io/_page/study-archive.md
+    url: /study/ 
   - title: "projects"
-    url: https://yeonyaily.github.io/_page/projects-archive.md
+    url: /categories/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
