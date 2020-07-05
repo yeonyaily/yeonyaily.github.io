@@ -34,6 +34,7 @@ vi창이 떠서 메세지를 입력할 수 있음
 각 커밋이 실행된 후 shell 명령어 실행
 * drop  
 해당 커밋 삭제
+
 #### status, clean
 * git status  
 git의 현재 정보, 상태를 알려줌
