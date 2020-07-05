@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "study"
-    url: /categories/study/
-  - title: "projects"
-    url: /categories/projects/
+  - title: "category"
+    url: /categories/
+  - title: "project"
+    url: /categories/project/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
