@@ -4,7 +4,7 @@ categories:
   - github
 ---
 
-### git 명령어 정리
+## git 명령어 정리
 
 #### add, commit
 * git add index.html  index2.html  
@@ -40,6 +40,7 @@ vi창이 떠서 메세지를 입력할 수 있음
 git의 현재 정보, 상태를 알려줌
 * git clean -f  
 untracked 파일을 모두 지울 수 있음
+
 #### log
 * git log --pretty=oneline --graph  
 왼쪽부분에 어떻게 연결되고 병합되었는 지에 대한 정보를 시각화하여 볼 수 있음
@@ -49,6 +50,7 @@ untracked 파일을 모두 지울 수 있음
 log 제목만 알고 싶을 때, 리스트를 한 라인으로 출력
 * reflog  
 모든 참조(reference)기록을 확인 (맨 위에가 최근)
+
 #### diff
 * git diff  
 워킹 디렉터리와 Staging area에서 실재 소스가 어떤 차이가 있는지 비교하는 명령어
@@ -58,6 +60,7 @@ Commit 내용과 Staging area 비교하는 명령어
 Commit과 다른 Commit 비교하는 명령어
 * git commit --amend  
 제일 마지막 Commit 메시지를 수정해주는 명령어(저장: ctrl+o, 나감: ctrl+x)
+
 #### reset (checkout)
 * git checkout file1
 file1의 이전 수정 상태로 돌려주는 명령어
@@ -69,6 +72,7 @@ reset의 mixed형태 -> default형태
 reset의 mixed형태로 HEAD이동, 해당파일 unstaged, WD 파일 보존, Commit이 바로 불가능 (두 번째 단계까지 진행 -> add상태가 아닌 unstage상태임)
 * git reset --hard HEAD~  
 reset의 hard형태로 HEAD이동, 해당파일 unstaged, WD 파일 미보존 (세 번째 단계까지 진행 -> working directory 내용을 삭제)
+
 #### rm
 * rm sample.txt  
 untrackde file들을 삭제하는 명령어
@@ -76,6 +80,7 @@ untrackde file들을 삭제하는 명령어
 tracked file들을 원격저장소와 로컬저장소에서 모두 삭제하는 명령어
 * git rm —cached sample.txt  
 tracked file들을 원격저장소에서만 삭제하고 로컬에서는 삭제하지 않는 명령어
+
 #### clone
 * git clone “Remote repo URL”  
 원격 저장소에서 로컬 저장소로 복제 할 때, 복제해오는 주소의 이름으로 디렉토리 이름을 저장하는 명령어
@@ -83,6 +88,7 @@ tracked file들을 원격저장소에서만 삭제하고 로컬에서는 삭제�
 원격 저장소에서 로컬 저장소로 복제 할 때, 복제해오는 주소의 이름이 아닌 abc와 같은 사용자가 정의한 이름으로 디렉토리 이름을 저장하는 명령어
 * git clone -b Lab1 “Remote repo URL” abc  
 원격 저장소에서 로컬 저장소로 복제 할 때, branch가 여러개있을 때 선택하여 사용하는 명령어
+
 #### remote
 * git remote  
 현재 연결되어있는 링크를 간단히 보여주는 명령어
@@ -92,6 +98,7 @@ tracked file들을 원격저장소에서만 삭제하고 로컬에서는 삭제�
 연결을 하고 싶을 때, 원격 저장소를 연결해주는 명령어
 * git remote remove origin  
 현재 연결을 제거하고 싶을 때, remote연결되어 있는 링크를 제거하는 명령어
+
 #### pull, push, fetch
 * git pull 사용법  
 원격에서 변경된 사항을 가져와서 내 local과 합치는 작업(git pull origine master)
@@ -106,10 +113,12 @@ tracked file들을 원격저장소에서만 삭제하고 로컬에서는 삭제�
 	4) git push origine master을 사용하여 push한다.
 * git fetch 와 git pull의 차이  
 git fetch는 git pull과 다르게, 원격에서 변경된 사항을 가져오기만 하고 내 local과 합치지는 않음.
+
 #### gitignore
 * .gitignore란?  
 Ignored File이란, git 저장소에서 관리할 필요가 없는 파일이나 폴더를 말한다.  
 주로 컴파일된 파일, 실행시간에 생성된 파일, Hidden file, 개인적인 파일, 실행파일 디렉터리들을 ignored파일에 집어넣어 관리할 필요가 없게 분류 한다.
+
 #### branch
 * branch란?  
 저장소를 처음 만들때 master라는 기본 branch가 생긴다.  
@@ -128,6 +137,7 @@ issue1 branch를 삭제한다. 즉, -d는 branch를 삭제하는 옵션이다.
 issue2라는 branch를 만드는 명령어
 * git branch –D issue1  
 -D는 작업을 하는 도중에 현재 branch를 강제로 삭제하는 옵션
+
 #### checkout
 * git checkout issue2  
 현재 brand에서 issue2 branch로 이동하는 명령어
@@ -135,6 +145,7 @@ issue2라는 branch를 만드는 명령어
 issue1이라는 branch를 만들고 동시에 만든 branch로 이동하는 옵션
 * git checkout master  
 master branch로 이동하는 명령어
+
 #### stash
 * git stash  
 워킹 디렉토리에서 수정된 완료되지 않은 작업들을 commit하지 않고 임시로 저장해주는 명령어
@@ -150,6 +161,7 @@ pop과는달리 마지막 항목을 꺼낸 후 삭제하지는 않는 명령어
 해당하는 stash 이름을 삭제하는 명령어
 * git stash clear  
 모든 리스트를 삭제하는 명령어 
+
 #### merge
 * git merge TopicA  
 현재 branch에 TopicA라는 branch를 병합하겠다는 명령어
@@ -169,6 +181,7 @@ vi merge.txt 를 사용하여 직접 file에 접근하여 원하는데로 수정
 * cherry-pick (해쉬키)  
 다른 브랜치에 있는 커밋을 선택적으로 내 브랜치에 적용하는 명령어  
 git merge를 사용한 충돌을 피할 수 있으며, 해쉬키는 커밋을 다시 한 것이기 때문에 바뀐다.
+
 #### rebase
 * rebase  
 Marge와는 다른 형태의 병합  
@@ -176,7 +189,8 @@ Marge와는 다른 형태의 병합
 1. feature 브랜치로 chackout
 2. master 브랜치로 rebase
 3. Master 브랜치에서 feature를 병합(fast-forward merge)
-즉, 페스트포워드 머지를 하고 싶을 때 사용하는 것
+즉, 페스트포워드 머지를 하고 싶을 때 사용하는 것  
+
 #### revert
 * revert?  
 commit된 스냅샷을 취소하는 명령어  
