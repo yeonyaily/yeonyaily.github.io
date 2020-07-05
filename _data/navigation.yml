@@ -1,11 +1,9 @@
 # main links
 main:
-  - title: "posts"
-    url: https://yeonyaily.github.io/_page/study/
   - title: "study"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: https://yeonyaily.github.io/_page/study-archive.md
   - title: "projects"
-    url: /year-archive/
+    url: https://yeonyaily.github.io/_page/projects-archive.md
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
