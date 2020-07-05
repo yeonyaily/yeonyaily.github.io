@@ -1,5 +1,5 @@
 ---
-titl: "git 명령어 정리"
+title: "git 명령어 정리"
 categories:
   - github
 ---
