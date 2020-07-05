@@ -24,7 +24,7 @@ description              : "개발 초보 나부랭이의 개발 공부"
 url                      : "https://yeonyaily.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/iceland.jpg"
+teaser                   : # "/assets/images/iceland.jpg"
 logo                     : #"/assets/images/moon.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
