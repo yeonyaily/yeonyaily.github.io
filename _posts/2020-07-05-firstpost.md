@@ -1,5 +1,5 @@
 ---
-titl: "my first post"
+title: "my first post"
 categories:
   - blogging
 ---
