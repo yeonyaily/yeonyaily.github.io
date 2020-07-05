@@ -1,7 +1,7 @@
 ---
 titl: "my first post"
 categories:
-  - github
+  - blogging
 ---
 
 #블로그 소개

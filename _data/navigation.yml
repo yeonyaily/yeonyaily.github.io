@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "study"
-    url: /categories/ 
+    url: /categories/study/
   - title: "projects"
     url: /categories/projects/
   # - title: "Sample Collections"
