@@ -6,3 +6,8 @@
 
 7/27
 chat, mypage 리디자인
+
+7/28
+chatlist,room 리디자인
+->room에서 날짜별로 창이 나눠지고, 시간만 채팅버블 옆에 나오도록 설계
+정규식을 사용하는 법을 공부함, Dart에서 배열대신 list를 사용하며, listView에서 index에 따라 날짜를 비교하는 논리식을 짬
