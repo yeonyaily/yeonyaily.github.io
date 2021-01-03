@@ -1,5 +1,5 @@
 ---
-title: "Study - bubble sort"
+title: "Study - Bubble Sort"
 categories:
   - Baekjoon
 ---
