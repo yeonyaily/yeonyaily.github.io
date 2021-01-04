@@ -69,6 +69,12 @@
 
   .site-nav {
     margin-left: 0;
+    margin-right: 0;
+    padding-top: 25px;
+    background: lavender;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
 
     @include breakpoint($small) {
       float: right;
