@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "category"
+ - title: "Home"
+    url: /
+  - title: "Category"
     url: /categories/
-  - title: "project"
+  - title: "Project"
     url: /categories/project/
   # - title: "Sample Collections"
   #   url: /collection-archive/
