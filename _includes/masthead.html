@@ -5,7 +5,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         {% unless logo_path == https://search.naver.com/search.naver?where=image&sm=tab_jum&query=%EB%82%98%EB%B9%84# %}
-          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ https://search.naver.com/search.naver?where=image&sm=tab_jum&query=%EB%82%98%EB%B9%84# | relative_url }}" alt=""></a>
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
